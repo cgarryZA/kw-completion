@@ -1,0 +1,2 @@
+# GitHub identifies a licence only when the file is LF.
+LICENSE text eol=lf

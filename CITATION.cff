@@ -1,0 +1,30 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "kw-completion: Kunita–Watanabe martingale completion for time-discrete stochastic solvers"
+type: software
+version: "0.1.0"
+date-released: "2026-09-04"
+authors:
+  - family-names: Garry
+    given-names: Christian
+    affiliation: "Department of Mathematical Sciences, Durham University"
+    email: christian.t.garry@durham.ac.uk
+repository-code: "https://github.com/cgarryZA/kw-completion"
+url: "https://pypi.org/project/kw-completion/"
+license: MIT
+keywords:
+  - Kunita-Watanabe
+  - martingale completion
+  - second chaos
+  - BSDE
+  - jumps
+references:
+  - type: article
+    title: "Martingale Completion for Time-Discrete Stochastic Solvers"
+    authors:
+      - family-names: Feng
+        given-names: Chunrong
+      - family-names: Garry
+        given-names: Christian
+    year: 2026
+    notes: "The accompanying paper, cited here as related work. Manuscript in preparation; no preprint identifier is available yet."

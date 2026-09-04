@@ -1,0 +1,38 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "kw-completion"
+version = "0.1.0"
+description = "Kunita-Watanabe martingale completion for time-discrete stochastic solvers"
+readme = "README.md"
+requires-python = ">=3.10"
+license = "MIT"
+license-files = ["LICENSE"]
+authors = [{ name = "Christian Garry", email = "christian.t.garry@durham.ac.uk" }]
+keywords = ["Kunita-Watanabe", "martingale", "orthogonal martingale", "second chaos",
+            "BSDE", "FBSDE", "jumps", "time-discrete solvers"]
+dependencies = ["numpy"]
+
+[project.urls]
+Homepage = "https://github.com/cgarryZA/kw-completion"
+Repository = "https://github.com/cgarryZA/kw-completion"
+Issues = "https://github.com/cgarryZA/kw-completion/issues"
+
+[project.optional-dependencies]
+test = ["pytest"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.ruff]
+target-version = "py310"
+line-length = 100
+
+[tool.ruff.lint]
+select = ["F", "E", "W"]
+ignore = ["E501", "E702", "E731"]
